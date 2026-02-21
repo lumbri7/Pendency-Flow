@@ -6,7 +6,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { FEATURES, TESTIMONIALS } from '@/lib/constants';
 import {
   CalendarClock,
-  CheckCircle,
   ChevronRight,
   LayoutDashboard,
   Quote,
@@ -52,7 +51,7 @@ export default function Home() {
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
               <Link href="/contact">Request Demo</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+            <Button asChild size="lg" variant="secondary">
               <Link href="/contact">Download App</Link>
             </Button>
           </div>
